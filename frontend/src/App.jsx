@@ -137,6 +137,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <footer style={{ marginTop: '3rem', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
+          &copy; {new Date().getFullYear()} DevOps Mini Project. All rights reserved.
+        </footer>
       </div>
     </Router>
   );
